@@ -17,10 +17,11 @@
 		D11EF18F29E485E400E2673F /* StocksAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EF18E29E485E400E2673F /* StocksAppTests.swift */; };
 		D11EF19929E485E400E2673F /* StocksAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EF19829E485E400E2673F /* StocksAppUITests.swift */; };
 		D11EF19B29E485E400E2673F /* StocksAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EF19A29E485E400E2673F /* StocksAppUITestsLaunchTests.swift */; };
-		D17C7C1429E551A600C76743 /* LandingPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17C7C1329E551A600C76743 /* LandingPageVC.swift */; };
-		D17C7C1629E551BF00C76743 /* StockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17C7C1529E551BF00C76743 /* StockCell.swift */; };
-		D17C7C1829E551E200C76743 /* StocksDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17C7C1729E551E200C76743 /* StocksDetailsVC.swift */; };
-		D17C7C1A29E551F200C76743 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17C7C1929E551F200C76743 /* CustomButton.swift */; };
+		D1C4437229E69AE8005786D1 /* LandingPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4436E29E69AE7005786D1 /* LandingPageVC.swift */; };
+		D1C4437329E69AE8005786D1 /* StocksDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4436F29E69AE7005786D1 /* StocksDetailsVC.swift */; };
+		D1C4437429E69AE8005786D1 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4437029E69AE7005786D1 /* CustomButton.swift */; };
+		D1C4437529E69AE8005786D1 /* StockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4437129E69AE8005786D1 /* StockCell.swift */; };
+		D1C4437729E69C41005786D1 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4437629E69C41005786D1 /* Buttons.swift */; };
 		DD2FB27EC7A3B9A1B2F1407B /* Pods_StocksApp_StocksAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FC0C714DD8B04C14F28D5A /* Pods_StocksApp_StocksAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,10 +64,11 @@
 		D11EF19829E485E400E2673F /* StocksAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksAppUITests.swift; sourceTree = "<group>"; };
 		D11EF19A29E485E400E2673F /* StocksAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D17C7C0E29E5504600C76743 /* StockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockManager.swift; sourceTree = "<group>"; };
-		D17C7C1329E551A600C76743 /* LandingPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LandingPageVC.swift; path = "../../../new-stocks/StockApp/Stock/View/LandingPageVC.swift"; sourceTree = "<group>"; };
-		D17C7C1529E551BF00C76743 /* StockCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StockCell.swift; path = "../../../new-stocks/StockApp/Stock/View/StockCell.swift"; sourceTree = "<group>"; };
-		D17C7C1729E551E200C76743 /* StocksDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StocksDetailsVC.swift; path = "../../../new-stocks/StockApp/Stock/View/StocksDetailsVC.swift"; sourceTree = "<group>"; };
-		D17C7C1929E551F200C76743 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = "../../../new-stocks/StockApp/Stock/View/CustomButton.swift"; sourceTree = "<group>"; };
+		D1C4436E29E69AE7005786D1 /* LandingPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingPageVC.swift; sourceTree = "<group>"; };
+		D1C4436F29E69AE7005786D1 /* StocksDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StocksDetailsVC.swift; sourceTree = "<group>"; };
+		D1C4437029E69AE7005786D1 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		D1C4437129E69AE8005786D1 /* StockCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockCell.swift; sourceTree = "<group>"; };
+		D1C4437629E69C41005786D1 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		E19C710E5084D814C1460BB4 /* Pods-StocksApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StocksApp.release.xcconfig"; path = "Target Support Files/Pods-StocksApp/Pods-StocksApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,10 +180,10 @@
 		D17C7C0B29E5503000C76743 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D17C7C1329E551A600C76743 /* LandingPageVC.swift */,
-				D17C7C1729E551E200C76743 /* StocksDetailsVC.swift */,
-				D17C7C1929E551F200C76743 /* CustomButton.swift */,
-				D17C7C1529E551BF00C76743 /* StockCell.swift */,
+				D1C4436E29E69AE7005786D1 /* LandingPageVC.swift */,
+				D1C4437029E69AE7005786D1 /* CustomButton.swift */,
+				D1C4437129E69AE8005786D1 /* StockCell.swift */,
+				D1C4436F29E69AE7005786D1 /* StocksDetailsVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -198,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				D17C7C0E29E5504600C76743 /* StockManager.swift */,
+				D1C4437629E69C41005786D1 /* Buttons.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -440,13 +443,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D17C7C1829E551E200C76743 /* StocksDetailsVC.swift in Sources */,
+				D1C4437229E69AE8005786D1 /* LandingPageVC.swift in Sources */,
 				D11EF17529E485E300E2673F /* AppDelegate.swift in Sources */,
-				D17C7C1429E551A600C76743 /* LandingPageVC.swift in Sources */,
+				D1C4437329E69AE8005786D1 /* StocksDetailsVC.swift in Sources */,
+				D1C4437529E69AE8005786D1 /* StockCell.swift in Sources */,
+				D1C4437429E69AE8005786D1 /* CustomButton.swift in Sources */,
 				D11EF17F29E485E300E2673F /* StocksApp.xcdatamodeld in Sources */,
-				D17C7C1A29E551F200C76743 /* CustomButton.swift in Sources */,
 				D11EF17729E485E300E2673F /* SceneDelegate.swift in Sources */,
-				D17C7C1629E551BF00C76743 /* StockCell.swift in Sources */,
+				D1C4437729E69C41005786D1 /* Buttons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

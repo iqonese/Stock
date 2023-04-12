@@ -8,14 +8,12 @@
 import UIKit
 
 class LandingPageVC: UIViewController {
-    var a = StockManager()
     lazy var search: UISearchBar = {
         let searchBar = UISearchBar()
         searchBar.translatesAutoresizingMaskIntoConstraints = false
         searchBar.placeholder = "Find company or ticker"
         searchBar.searchBarStyle = .minimal
         searchBar.delegate = self
-        view.addSubview(searchBar)
         searchBar.setImage(UIImage(systemName: "magnifyingglass"), for: .search, state: .normal)
         return searchBar
     }()
@@ -70,6 +68,7 @@ class LandingPageVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        view.addSubview(search)
         stocksPressed()
         // Do any additional setup after loading the view.
         NSLayoutConstraint.activate([
