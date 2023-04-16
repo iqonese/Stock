@@ -9,7 +9,8 @@ import Foundation
 import Charts
 
 class StockDetailsVC: UIViewController {
-    lazy var buyButton: UIButton = {
+//    var Stock = StockMa
+    private lazy var buyButton: UIButton = {
         let button = UIButton()
         button.backgroundColor = .black
         button.layer.cornerRadius = 16
@@ -23,7 +24,7 @@ class StockDetailsVC: UIViewController {
     }()
         
     
-    lazy var buttonStack: UIStackView =  {
+    private lazy var buttonStack: UIStackView =  {
         let stack = UIStackView(arrangedSubviews: [
             CustomButton().configureButton(name: "D"),
             CustomButton().configureButton(name: "W"),
@@ -40,7 +41,7 @@ class StockDetailsVC: UIViewController {
         return stack
     }()
     
-    lazy var lineChartView: LineChartView = {
+    private lazy var lineChartView: LineChartView = {
         let chartView = LineChartView()
         view.addSubview(chartView)
         chartView.translatesAutoresizingMaskIntoConstraints = false
